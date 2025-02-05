@@ -13,7 +13,7 @@ camera.position.z = 5;
 
 // Add object in space
 const geometry = new THREE.DodecahedronGeometry();
-const material = new THREE.MeshLambertMaterial({ color: '#468585', emissive: '#468585' });
+const material = new THREE.MeshLambertMaterial({ color: '#115585', emissive: '#115585' });
 const docdecahedron = new THREE.Mesh(geometry, material);
 
 const boxGeometry = new THREE.BoxGeometry(2, 0.1, 2);
@@ -26,7 +26,7 @@ scene.add(box);
 
 
 // Lights
-const light = new THREE.SpotLight(0x006769, 100);
+const light = new THREE.SpotLight(0x006769, 50);
 light.position.set(1, 1, 1);
 scene.add(light);
 
