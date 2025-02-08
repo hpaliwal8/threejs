@@ -27,7 +27,7 @@ scene.add(box);
 
 // Lights
 const light = new THREE.SpotLight(0x006769, 50);
-light.position.set(1, 1, 1);
+light.position.set(1, 2, 1);
 scene.add(light);
 
 // Renderer
