@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 
 // Constants
@@ -23,13 +22,14 @@ const Navbar = () => {
     }
 
     return (
-        <header className='fixed left-0 right-0 top-0 z-50  '>
+        <header className='fixed left-0 right-0 top-0 z-50 bg-black/90'>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex justify-between items-center py-5 mx-auto c-space'>
                     <a href='/' className='text-neutral-400 font-bold hover:text-white transition-colors'>
                         Hitansh
                     </a>
-                    <button onClick={toggleMenu} className='text-neutral-400 hover:text-white focvus:outline-none sm:hidden flex' aria-label='Toggle menu'>
+                    <button onClick={toggleMenu} className='text-neutral-400 hover:text-white focus:outline-none sm:hidden flex' 
+                    aria-label='Toggle menu'>
                         <img src={isOpen ? 'assets/close.svg' : 'assets/menu.svg'} alt='toggle' className='w-6 h-6' />
                     </button>
                     <nav className='sm:flex hidden'>
