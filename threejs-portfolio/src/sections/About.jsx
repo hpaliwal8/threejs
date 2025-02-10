@@ -20,7 +20,7 @@ const About = () => {
                         <div>
                             <p className='grid-headtext'>Hi, I&apos;m Hitansh Paliwal</p>
                             <p className='grid-subtext'>With 5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                            and responsive websites.</p>
+                                and responsive websites.</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,9 @@ const About = () => {
                                 I am a global citizen.
                             </p>
                             <p className='grid-subtext'>I&apos;m based in India right now, and I want to experience cultures from around the world.</p>
-                            <Button name="Contact me" isBeam containerClass="w-full xl:mt-20 mt-10" />
+                            <a href="#contact">
+                                <Button name="Contact me" isBeam containerClass="w-full xl:mt-20 mt-10" />
+                            </a>
                         </div>
                     </div>
                 </div>
