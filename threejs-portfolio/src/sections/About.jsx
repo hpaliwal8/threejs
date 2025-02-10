@@ -18,8 +18,9 @@ const About = () => {
                     <div className='grid-container'>
                         <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
-                            <p className='grid-headtext'>Hi, I am Hitansh</p>
-                            <p className='grid-subtext'>Write some good stuff here with 50 or so words.</p>
+                            <p className='grid-headtext'>Hi, I&apos;m Hitansh Paliwal</p>
+                            <p className='grid-subtext'>With 5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                            and responsive websites.</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +59,7 @@ const About = () => {
                                 I am a global citizen.
                             </p>
                             <p className='grid-subtext'>I&apos;m based in India right now, and I want to experience cultures from around the world.</p>
-                            <Button name="Contact me" isBeam containerClass="w-full mt-10" />
+                            <Button name="Contact me" isBeam containerClass="w-full xl:mt-20 mt-10" />
                         </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@ const About = () => {
 
                 <div className='xl:col-span-1 xl:row-span-2'>
                     <div className='grid-container'>
-                        <img src="assets/grid4.png" alt="grid4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top" />
+                        <img src="assets/grid4.png" alt="grid-4" className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top" />
                         <div className='space-y-2'>
                             <p className='grid-subtext text-center'>Contact me</p>
                             <div className='copy-container' onClick={handleCopy}>

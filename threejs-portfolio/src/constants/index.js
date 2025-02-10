@@ -14,50 +14,22 @@ export const navLinks = [
         name: 'Work',
         href: '#work',
     },
+    /*
+    Project Section to be added later
     {
         id: 4,
         name: 'Projects',
         href: '#projects',
     },
+    */
+    {
+        id: 4,
+        name: 'Resume',
+    },
     {
         id: 5,
         name: 'Contact',
         href: '#contact',
-    },
-];
-
-export const clientReviews = [
-    {
-        id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
-        review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
-    },
-    {
-        id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
-        img: 'assets/review2.png',
-        review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
-    },
-    {
-        id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
-        img: 'assets/review3.png',
-        review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
-    },
-    {
-        id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
-        img: 'assets/review4.png',
-        review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
     },
 ];
 
@@ -265,29 +237,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'Enphase Energy',
+        pos: 'Software Developer',
+        duration: '2023 - Present',
+        title: "Owned the interface, experience, and system architecture revamp of a critical cog of Solargraf, a web-based interface for installers to visualise solar and energy storage configurations to homeowners using 3D models. Contributing to multiple other repositories and features.",
+        icon: '/assets/enphase_1.svg',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        name: 'Microsoft',
+        pos: 'Technical Consultant',
+        duration: '2020 - 2023',
+        title: "Built reusable cross platform SharePoint Online based UI components. Contributed to approval based semi-automatic SharePoint site provisioning internal IP, among other utility package contributions.",
+        icon: '/assets/microsoft.svg',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
+        name: 'MobileSutra',
+        pos: 'Software Developer intern',
         duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        title: "Developed developed two mobile applications as part of a grievance management solution for government schools, which included real-time chat functionality, notification service, and a in-app chatbot. Contributed to a web-based tele-consultancy application.",
+        icon: '/assets/mobilesutra_logo.jpg',
         animation: 'salute',
     },
 ];

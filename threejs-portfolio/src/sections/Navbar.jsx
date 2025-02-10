@@ -6,11 +6,22 @@ import { navLinks } from '../constants'
 const NavItems = () => {
     return (
         <ul className='nav-ul'>
-            {navLinks.map(({ id, name, href }) => (
-                <li key={id} className='nav-li'>
-                    <a href={`${href}`} className='nav-li_a' onClick={() => { }}>{name}</a>
-                </li>
-            ))}
+            {navLinks.map(({ id, name, href }) => {
+                if(name.toLowerCase() === 'resume') {
+                    return (
+                        <li key={id} className='nav-li'>
+                            <a href={`https://drive.google.com/file/d/10nQ4Vj3mQRWN1zzEctmTUkvQGGacqSJz/view?usp=drive_link`} target="_blank" rel="noopener noreferrer" className='nav-li_a' onClick={() => { }}>{name}</a>
+                        </li>
+                    )
+                } else {
+                    return (
+                        <li key={id} className='nav-li'>
+                            <a href={`${href}`} className='nav-li_a' onClick={() => { }}>{name}</a>
+                        </li>
+                    )
+                }
+                
+}                   )}
         </ul>
     )
 }

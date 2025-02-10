@@ -7,15 +7,15 @@ const Footer = () => {
             <p>Privacy Policy</p>
         </div>
         <div className='flex gap-3'>
-            <div className='social-icon'>
+            <a href={'https://github.com/hpaliwal-enphase'} target="_blank" rel="noopener noreferrer" className='social-icon'>
                 <img src="assets/github.svg" alt="github" className='w-1/2 h-1/2' />
-            </div>
-            <div className='social-icon'>
-                <img src="assets/twitter.svg" alt="twitter" className='w-1/2 h-1/2' />
-            </div>
-            <div className='social-icon'>
+            </a>
+            <a href={'https://www.linkedin.com/in/hitansh-paliwal/'} target="_blank" rel="noopener noreferrer" className='social-icon'>
+                <img src="assets/linkedin-white.svg" alt="linkedin" className='w-1/2 h-1/2' />
+            </a>
+            <a href={'https://www.instagram.com/8hitxnsh8/'} target="_blank" rel="noopener noreferrer" className='social-icon'>
                 <img src="assets/instagram.svg" alt="instagram" className='w-1/2 h-1/2' />
-            </div>
+            </a>
         </div>
 
         <p className='text-white-500'>© 2025 Hitansh. All rights reserved. </p>
