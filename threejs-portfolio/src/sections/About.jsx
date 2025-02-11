@@ -19,7 +19,7 @@ const About = () => {
                         <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className='grid-headtext'>Hi, I&apos;m Hitansh Paliwal</p>
-                            <p className='grid-subtext'>With 5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                            <p className='grid-subtext'>With 5 years of experience, I have honed my skills in both frontend and backend development, creating dynamic
                                 and responsive websites.</p>
                         </div>
                     </div>
@@ -29,7 +29,7 @@ const About = () => {
                         <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className='grid-subtext'>I specialize in JavaScript and TypeScript with a focus on React and Three.js exosystems.</p>
+                            <p className='grid-subtext'>I specialize in JavaScript and TypeScript with a focus on React, Node.js and Three.js ecosystems.</p>
                         </div>
                     </div>
                 </div>

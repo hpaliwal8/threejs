@@ -240,7 +240,7 @@ export const workExperiences = [
         name: 'Enphase Energy',
         pos: 'Software Developer',
         duration: '2023 - Present',
-        title: "Owned the interface, experience, and system architecture revamp of a critical cog of Solargraf, a web-based interface for installers to visualise solar and energy storage configurations to homeowners using 3D models. Contributing to multiple other repositories and features.",
+        title: "Owned the interface, experience, and system architecture revamp of the Battery Design Tool (BDT) of Solargraf, a web-based interface for installers to visualise solar and energy storage configurations to homeowners using 3D models. Contributing to multiple other repositories and features.",
         icon: '/assets/enphase_1.svg',
         animation: 'victory',
     },
