@@ -1,16 +1,3 @@
-# Three.js Journey
+Hosted URL: https://haunted-scary-house.vercel.app/
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+Demo: ![ScreenRecording2025-03-02at2 39 35PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c85541e4-c6ad-4076-9819-3204bb08e548)
