@@ -7,7 +7,7 @@ const Footer = () => {
             <p>Privacy Policy</p>
         </div>
         <div className='flex gap-3'>
-            <a href={'https://github.com/hpaliwal-enphase'} target="_blank" rel="noopener noreferrer" className='social-icon'>
+            <a href={'https://github.com/hpaliwal8'} target="_blank" rel="noopener noreferrer" className='social-icon'>
                 <img src="assets/github.svg" alt="github" className='w-1/2 h-1/2' />
             </a>
             <a href={'https://www.linkedin.com/in/hitansh-paliwal/'} target="_blank" rel="noopener noreferrer" className='social-icon'>
