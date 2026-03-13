@@ -22,12 +22,12 @@ export const navLinks = [
         href: '#projects',
     },
     */
+    // {
+    //     id: 4,
+    //     name: 'Resume',
+    // },
     {
         id: 4,
-        name: 'Resume',
-    },
-    {
-        id: 5,
         name: 'Contact',
         href: '#contact',
     },
@@ -240,7 +240,7 @@ export const workExperiences = [
         name: 'Enphase Energy',
         pos: 'Software Developer',
         duration: '2023 - Present',
-        title: "Owned the interface, experience, and system architecture revamp of the Battery Design Tool (BDT) of Solargraf, a web-based interface for installers to visualise solar and energy storage configurations to homeowners using 3D models. Contributing to multiple other repositories and features.",
+        title: "Built and optimized production microservices and frontend tools for a solar energy platform, working with gRPC, Redis, async architectures, and JavaScript performance optimization on systems serving thousands of daily requests.",
         icon: '/assets/enphase_1.svg',
         animation: 'victory',
     },
@@ -249,7 +249,7 @@ export const workExperiences = [
         name: 'Microsoft',
         pos: 'Technical Consultant',
         duration: '2020 - 2023',
-        title: "Built reusable cross platform SharePoint Online based UI components. Contributed to approval based semi-automatic SharePoint site provisioning internal IP, among other utility package contributions.",
+        title: "Developed reusable libraries, optimized internal search engine performance, and built React components deployed across 100+ production SharePoint sites.",
         icon: '/assets/microsoft.svg',
         animation: 'clapping',
     },
@@ -258,7 +258,7 @@ export const workExperiences = [
         name: 'MobileSutra',
         pos: 'Software Developer intern',
         duration: '2019 - 2020',
-        title: "Developed developed two mobile applications as part of a grievance management solution for government schools, which included real-time chat functionality, notification service, and a in-app chatbot. Contributed to a web-based tele-consultancy application.",
+        title: "Architected a chatbot system with NLU and REST APIs deployed across 700+ government schools, and built a tele-consultancy platform with payment processing and automated prescription generation.",
         icon: '/assets/mobilesutra_logo.jpg',
         animation: 'salute',
     },
