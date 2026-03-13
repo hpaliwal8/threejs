@@ -20,7 +20,7 @@ const About = () => {
                         <div>
                             <p className='grid-headtext'>Hi, I&apos;m Hitansh Paliwal</p>
                             <p className='grid-subtext'>With 5 years of experience, I have honed my skills in both frontend and backend development, creating dynamic
-                                and responsive websites.</p>
+                                and responsive websites. Now back to academia in grad school!</p>
                         </div>
                     </div>
                 </div>
