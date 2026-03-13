@@ -29,7 +29,7 @@ const About = () => {
                         <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
                         <div>
                             <p className='grid-headtext'>Tech Stack</p>
-                            <p className='grid-subtext'>I specialize in JavaScript and TypeScript with a focus on React, Node.js and Three.js ecosystems.</p>
+                            <p className='grid-subtext'>I specialize in JavaScript and TypeScript with a focus on React, Node.js and Three.js ecosystems. I also specialize in Python systems for backend, automation and distrbuted system workflows.</p>
                         </div>
                     </div>
                 </div>
