@@ -46,8 +46,8 @@ const About = () => {
                                 globeImageUrl={"//unpkg.com/three-globe/example/img/earth-night.jpg"}
                                 bumpImageUrl={"//unpkg.com/three-globe/example/img/earth-topology.png"}
                                 labelsData={[{
-                                    lat: 12.965993,
-                                    lng: 77.606983,
+                                    lat: 40.711451,
+                                    lng: -73.930864,
                                     text: "I'm here!",
                                     color: "white",
                                     size: 30,
@@ -58,7 +58,7 @@ const About = () => {
                             <p className='grid-headtext'>
                                 I am a global citizen.
                             </p>
-                            <p className='grid-subtext'>I&apos;m based in India right now, and I want to experience cultures from around the world.</p>
+                            <p className='grid-subtext'>I&apos;m based in New York right now, and I want to experience cultures from around the world.</p>
                             <a href="#contact">
                                 <Button name="Contact me" isBeam containerClass="w-full xl:mt-20 mt-10" />
                             </a>
