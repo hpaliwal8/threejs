@@ -255,11 +255,11 @@ export const workExperiences = [
     },
     {
         id: 3,
-        name: 'MobileSutra',
+        name: 'Stealth Startup',
         pos: 'Software Developer intern',
         duration: '2019 - 2020',
-        title: "Architected a chatbot system with NLU and REST APIs deployed across 700+ government schools, and built a tele-consultancy platform with payment processing and automated prescription generation.",
-        icon: '/assets/mobilesutra_logo.jpg',
+        title: "Architected a chatbot system with NLU and REST APIs deployed across 700+ in-state schools, and built a tele-consultancy platform with payment processing and automated prescription generation.",
+        icon: '/assets/stealth.png',
         animation: 'salute',
     },
 ];
